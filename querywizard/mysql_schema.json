@@ -1,0 +1,48 @@
+{
+    "report": {
+        "name": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "roll_number": {
+            "type": "int",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "cgpa": {
+            "type": "decimal(3,2)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "percentage": {
+            "type": "decimal(5,2)",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "student": {
+        "name": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "roll_number": {
+            "type": "int",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    },
+    "world": {
+        "country": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        },
+        "capital": {
+            "type": "varchar(255)",
+            "primary_key": false,
+            "foreign_key": null
+        }
+    }
+}
